@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const Div = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 50%;
   height: 100%;
   padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   gap: 2rem;
 
   backdrop-filter: blur(${(props) => props.glassStyle.blur}px);
@@ -24,15 +25,9 @@ export const Div = styled.div`
     );
 `;
 
-export const RangeContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
 export const MainWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
   gap: 1.5rem;
 `;
 export const Title = styled.p`
@@ -44,7 +39,4 @@ export const Description = styled.p`
   display: flex;
   justify-content: center;
   color: rgba(256, 256, 256, 0.6);
-`;
-export const Range = styled.input`
-  width: 40%;
 `;

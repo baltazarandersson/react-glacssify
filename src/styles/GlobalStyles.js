@@ -11,8 +11,10 @@ export const Div = styled.div`
   background-image: url("https://i.imgur.com/xr1ZZp9.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+
   padding: 2rem 10% 2rem 10%;
-  @media (max-width: 960px) {
+  @media (max-width: 720px) {
     flex-direction: column;
   }
 `;

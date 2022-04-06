@@ -7,7 +7,7 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 1rem;
 
   backdrop-filter: blur(${(props) => props.glassStyle.blur}px);
 

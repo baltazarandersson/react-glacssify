@@ -6,7 +6,7 @@ export const useGlassContext = () => useContext(GlassContext);
 
 export function GlassContextProvider({ children }) {
   const [glassStyle, setGlassStlye] = useState({
-    blur: 30,
+    blur: 50,
     shadow: 5,
     shadowTransparency: 1,
     outline: 1,
