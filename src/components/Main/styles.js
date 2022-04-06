@@ -25,6 +25,7 @@ export const Div = styled.div`
     );
 
   @media (max-width: 720px) {
+    padding: 1rem;
     width: 100%;
   }
 `;
