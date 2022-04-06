@@ -23,6 +23,10 @@ export const Div = styled.div`
       ${(props) => props.glassStyle.outlineColor},
       ${(props) => props.glassStyle.outlineTransparency / 10}
     );
+
+  @media (max-width: 720px) {
+    width: 100%;
+  }
 `;
 
 export const MainWrapper = styled.div`

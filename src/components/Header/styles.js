@@ -22,6 +22,11 @@ export const Header = styled.header`
       ${(props) => props.glassStyle.outlineColor},
       ${(props) => props.glassStyle.outlineTransparency / 10}
     );
+
+  @media (max-width: 720px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 export const Logo = styled.p`
   font-size: 2rem;

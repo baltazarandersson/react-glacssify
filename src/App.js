@@ -1,3 +1,4 @@
+import { BackgroundBoxes } from "./components/BackgroundBoxes";
 import { AppHeader } from "./components/Header";
 import { Main } from "./components/Main";
 import { GlassContextProvider } from "./context/GlassContext";
@@ -9,6 +10,7 @@ function App() {
       <Div className="App">
         <AppHeader />
         <Main />
+        <BackgroundBoxes />
       </Div>
     </GlassContextProvider>
   );

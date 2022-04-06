@@ -9,7 +9,7 @@ export function Main() {
   return (
     <Div glassStyle={glassStyle}>
       <div>
-        <Title>GLASS Effect Generator</Title>
+        <Title>Preview :)</Title>
         <Description>create your own glass effect!</Description>
       </div>
       <MainWrapper>

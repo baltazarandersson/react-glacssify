@@ -9,7 +9,6 @@ export const CodeBoxContainer = styled.div`
   min-height: 150px;
   padding: 1rem;
   border-radius: 1rem;
-  color: rgba(256, 256, 256, 0.6);
   font-size: 14px;
   backdrop-filter: blur(${(props) => props.glassStyle.blur}px);
 
@@ -24,4 +23,24 @@ export const CodeBoxContainer = styled.div`
       ${(props) => props.glassStyle.outlineColor},
       ${(props) => props.glassStyle.outlineTransparency / 10}
     );
+`;
+export const CodeLine = styled.span`
+  color: rgba(256, 256, 256, 0.6);
+`;
+
+export const ClipboardCopy = styled.button`
+  background: none;
+  position: absolute;
+  border: none;
+  right: 1rem;
+  top: 1rem;
+  cursor: ${(params) => {
+    return params.children.props.cursorPointerStatus ? "pointer" : "auto";
+  }};
+
+  svg {
+    color: #fafafa;
+    width: 25px;
+    height: 25px;
+  }
 `;

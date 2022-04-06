@@ -44,7 +44,7 @@ export function SlidersWrapper() {
       </RangeContainer>
       <RangeContainer>
         <Slider
-          title="Shadow"
+          title="shadow"
           min="0"
           max="100"
           value={glassStyle.shadow}
@@ -53,7 +53,7 @@ export function SlidersWrapper() {
       </RangeContainer>
       <RangeContainer>
         <Slider
-          title="Shadow transparency"
+          title="shadow transparency"
           min="0"
           max="10"
           value={glassStyle.shadowTransparency}
@@ -62,7 +62,7 @@ export function SlidersWrapper() {
       </RangeContainer>
       <RangeContainer>
         <Slider
-          title="Outline"
+          title="outline"
           min="0"
           max="10"
           value={glassStyle.outline}
@@ -71,7 +71,7 @@ export function SlidersWrapper() {
       </RangeContainer>
       <RangeContainer>
         <Slider
-          title="Outline transparency"
+          title="outline transparency"
           min="0"
           max="10"
           value={glassStyle.outlineTransparency}
@@ -80,7 +80,7 @@ export function SlidersWrapper() {
       </RangeContainer>
       <RangeContainer>
         <Slider
-          title="Outline color"
+          title="outline color"
           min="0"
           max="256"
           value={glassStyle.outlineColor}

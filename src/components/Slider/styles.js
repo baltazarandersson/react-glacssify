@@ -26,8 +26,6 @@ export const RangeValueSpan = styled.span`
   z-index: 3;
 
   ${(props) => {
-    console.log(props);
-
     return (
       props.active &&
       css`
