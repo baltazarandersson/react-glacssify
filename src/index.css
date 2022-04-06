@@ -7,7 +7,6 @@ body {
   background-image: url("https://i.imgur.com/xr1ZZp9.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 body * {
   box-sizing: border-box;
@@ -17,4 +16,9 @@ body * {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@media (max-width: 720px) {
+  body {
+    background-size: inherit;
+  }
 }
