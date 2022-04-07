@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   margin: 0;
   font-family: "Archivo Black", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,5 +21,6 @@ code {
 @media (max-width: 720px) {
   body {
     background-size: inherit;
+    background-position: center;
   }
 }
